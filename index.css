@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;600;700;800;900&display=swap');
+
 :root {
     --header-nav-height: 60px;
+}
+
+* {
+    font-family: Inter, sans-serif;
 }
 
 body {
@@ -16,6 +22,7 @@ a {
     background-color: #282828;
     display: flex;
     justify-content: space-between;
+    padding: 0px 10px;
 }
 
 .header__nav {
@@ -29,11 +36,10 @@ a {
 }
 
 .header__nav a {
-    padding: 5px;
+    padding: 10px;
     color: #ddd;
-    font-family: Arial, Helvetica, sans-serif;
     line-height: var(--header-nav-height);
-    text-transform: uppercase;
+    font-weight: 300;
 }
 
 .header__nav li:hover {
@@ -42,11 +48,10 @@ a {
 
 .header__socials {
     width: 125px;
-    margin-right: 5px;
     display: flex;
     align-items: center;
 }
 
 .header__social-icon {
-    height: 45%;
+    height: 40%;
 }
